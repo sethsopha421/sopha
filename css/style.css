@@ -1,0 +1,67 @@
+
+body {
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+div ul{
+    background-color: blue;
+   
+}
+div par{
+    background-color:none;
+}
+
+div ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    position: relative;
+}
+div ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 62;
+    margin-right: 27;
+    font-size: 14px;
+}
+div ul li a{
+    display: block;
+    padding: 12px 16px;
+
+    text-decoration: none;
+    color: blanchedalmond;
+    font-weight: bold;
+    transition: all 0.5s linear;
+}
+div ul li a:hover {
+    background-color: darkmagenta;
+    color:aqua;
+}
+div ul li ul{
+    position: absolute;
+    background-color: dodgerblue;
+}
+div ul li ul li{
+    display: block;
+}
+div ul li ul li a {
+    font-weight: normal;
+    display: none;
+}
+div ul li:hover ul li a{
+    display: block;
+}
+
+div par {
+background-color:white;
+}
+
+
+    
